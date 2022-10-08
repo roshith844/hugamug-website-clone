@@ -1,0 +1,214 @@
+
+.owl-demo, .owl-demo2, .owl-demo3, .owl-demo4, .owl-demo5{
+	width:100%;
+	float:left;
+	position:relative;
+	padding:0;
+	margin:0;
+}
+.owl-top-pad{
+	padding:70px 0 0 0 ;
+}
+.owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 0;
+	padding: 0;
+	/*background-color:rgba(0, 0, 0, 0.3);*/
+	-moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;  
+  position:relative;
+  overflow:hidden;
+
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+
+.owl-controls.clickable .owl-buttons div:hover{
+	/*filter: Alpha(Opacity=100);/*IE7 fix*/
+	/*opacity: 1;*/
+	text-decoration: none;
+	background-color: #30211a;
+}
+.owl-next, .owl-prev{
+	width:50px;
+	height:50px;
+	/*-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;*/
+	margin:2px !important;
+	background: url(../images/prev.png) no-repeat center center;
+	background-repeat: no-repeat;
+	background-position:  center center;
+	background-size: 40px !important;
+	text-indent:-999999px;
+	position:absolute;
+	font-size:0;
+	color:transparent;
+	border-radius: 5px;
+}
+
+.owl-next{
+	background: url(../images/next.png) no-repeat center center;	
+}
+/****************testimonials**********/
+
+/* Styling Pagination*/
+.cont-min{}
+
+.cont-min .owl-controls{
+	top:-50px;
+	}
+
+.owl-controls{
+	width:100%;
+	top: 0;
+	left:0;
+	z-index:5;
+	position:absolute;
+	text-align: center;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.carousel-arrow-center .owl-controls{ text-align: center; top: 0px; }
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 14px;
+	height: 14px;
+	margin: 0 4px ;
+	/*-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;*/
+	background: #fff;
+	border:2px solid #001C34;
+	
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	background: #FFA800;
+	border:2px solid #001C34;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #ff0000;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	display:none;
+}
+
+
+/*****************************/
+
+.owl-demo .item , .owl-demo2 .item, .owl-demo3 .item, .owl-demo4 .item{
+	padding:0;
+	margin:0;
+	position:relative;
+	overflow:hidden;
+}
+
+ .owl-demo3 .item {
+	 margin:0 5px!important;
+}
+.owl-demo4 .item {
+	 margin:0 10px!important;
+} 
+.owl-carousel .owl-item{
+	float: left;
+}
+
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+	
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(../images/grabbing.png) 10 10, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+@media only screen and (max-width: 768px) {
+.owl-pad{
+	padding:0 50px;
+	}
+}
+	
+	
+@media only screen and (max-width: 640px) {
+
+.cont-min .owl-controls{
+	width:100%;
+	text-align:center;
+}
+
+
+}

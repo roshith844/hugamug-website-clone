@@ -1,0 +1,78 @@
+
+
+@font-face {
+    font-family: 'playfair_displayblack';
+    src: url('../fonts/playfairdisplay-black-webfont.eot');
+    src: url('../fonts/playfairdisplay-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-black-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-black-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-black-webfont.svg#playfair_displayblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('../fonts/playfairdisplay-bold-webfont.eot');
+    src: url('../fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bold-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('../fonts/playfairdisplay-regular-webfont.eot');
+    src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_sansbold';
+    src: url('../fonts/pt_sans-web-bold-webfont.eot');
+    src: url('../fonts/pt_sans-web-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pt_sans-web-bold-webfont.woff2') format('woff2'),
+         url('../fonts/pt_sans-web-bold-webfont.woff') format('woff'),
+         url('../fonts/pt_sans-web-bold-webfont.ttf') format('truetype'),
+         url('../fonts/pt_sans-web-bold-webfont.svg#pt_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('../fonts/pt_sans-web-regular-webfont.eot');
+    src: url('../fonts/pt_sans-web-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pt_sans-web-regular-webfont.woff2') format('woff2'),
+         url('../fonts/pt_sans-web-regular-webfont.woff') format('woff'),
+         url('../fonts/pt_sans-web-regular-webfont.ttf') format('truetype'),
+         url('../fonts/pt_sans-web-regular-webfont.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,17 @@
+.carousal{
+     width: 100%;
+     height: 500px;
+     background-image: url(./images/1.jpg);
+}
+/*.fade{
+     -webkit-animation: 1.5s fade;
+     animation: 1.5 fade;
+}
+@-webkit-keyframes fade{
+     from{opacity: 0.4}
+     to{opacity: 1}
+}
+@keyframes fade{
+     from{opacity: 0.4}
+     to{opacity: 1}
+}*/
